@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/HeadIcon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">
+            <img src="./assets/LOGO400X-01.png">
+            Aoi Sani
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skill</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <nav id="hamburger-nav">
+          <div class="logo">
+            <img src="./assets/LOGO400X-01.png">
+            Aoi Sani
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skill</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+            </div>
+        </nav>
+        <section id="layer1">
+            <div class="layer1_text_container">
+              <p class="layer1_section_text_p1">Hello, I'm Sunny<br /> Or you may call me</p>
+                  <h1 class="title">"Aoi Sani"</h1>
+                  <h1 class="title">"青太陽"</h1>
+                  <ul class="layer1_section_text_p2">
+                    <li><span>3D MODEL DESIGNER</span></li>
+                    <li><span>3D Aminator</span></li>
+                    <li><span>2D & 3D DIGITER DESIGNER</span></li>
+                    <li><span>GAME DEVELOPER [ART DIRECTOR]</span></li>
+                  </ul>
+
+                  <div class="btn-container">
+                    <button
+                    class="btn btn-color-2"
+                    onclick="window.open('./assets/LMK_CV 2024_8.pdf')"
+                    >
+                    Download CV
+                    </button>
+                    <button 
+                    class="btn btn-color-1" 
+                    onclick="location.href='./#contact'"
+                    >
+                    Contact Info
+                    </button>
+            </div> 
+
+        </section>
+        <section id="about">
+                <p class="section_text_p1">Get To Know More</p>
+                <h1 class="title">About Me</h1>
+                <div class="section-container">
+                    <!--<div class="section_pic-container">
+                        <img src="./assets/LOGO400X-01.png"
+                        alt="Profile picture"
+                        class="about-pic"
+                        />
+                    </div>-->
+                    <div class="about-details-container">
+                        <div class="about-container">
+                          <div class="details-container">
+                            <img
+                              src="./assets/experience.png"
+                              alt="Experience icon"
+                              class="icon"
+                            />
+                            <h3>Past Event & Experience</h3>
+                            <p>
+                            [Shop Assistant, Package deliver] Melbourne Books<br />2020-2021<br />
+                            [Graph Designer] Internship of skytree digital limited<br />2022<br />
+                            [Shop Assistant] Joint Publishing HK<br />2022-2023<br />
+                            [Virtual Reality Event - "Memory of Hong Kong"(Art Director)] HK POP CULTURE FESTIVAL<br />2024<br />
+                          </p>
+                          </div>
+                          <div class="details-container">
+                            <img
+                              src="./assets/education.png"
+                              alt="Education icon"
+                              class="icon"
+                            />
+                            <h3>Education</h3>
+                            <p>CCC Ming Kei College<br/>2014-2020<br/>
+                              Higher Diploma in Computer Game Development<br />School of Continuing and Professional Studies-The Chinese University of Hong Kong<br />2020–2022<br />
+                              Bachelor of Arts with Honours in Computing and Interactive Entertainment<br/>
+                              Hong Kong Metropolitan University<br/>
+                              2022-2024<br/>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                          Sunny Lui, a digital media designer who has studied game development and 3D modeling for over four years, 
+                          aims to create high-quality assets that present exceptional environments with a compelling ambiance. 
+                          Through game development, the ideas behind the artworks can be showcased with greater opportunities for interactive entertainment.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+        </section>
+        <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Skills</h1>
+            <div class="experience-details-container">
+              <div class="about-container">
+                <div class="details-container">
+                  <h2 class="experience-sub-title">2D & 3D Designer</h2>
+                  <div class="article-container">
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Adobe Illustrator</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Adobe Photoshop</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Clip Studio</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Adobe After Effect</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Blender(2.8 and above)</h3>
+                        <p>Experienced</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>DaVinci Resolve</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>3ds Max</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Adobe Substance 3D Painter</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="details-container">
+                  <h2 class="experience-sub-title">Computer Language & Game Developer</h2>
+                  <div class="article-container">
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Java</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>CSS</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>HTML</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Unity Game Engine</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="./assets/arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#project'"
+            />
+        </section>
+        <section id="project">
+            <p class="section_text_p1">Browse My Recent</p>
+            <h1 class="title">Project</h1>
+            <div class="experience-details-container">
+                <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/HighQualityMotorcycle1320.png" 
+                        alt="Project 1" 
+                        class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project">High Quality Motorcycle</h2>
+                    <h2 class="small_text_p2">RZ250 Reference</h2>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" onclick="location.href='https://x.com/AoiSani/status/1828150115527467425'">
+                            View on Twitter
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/HighQualityAnimation1320.png" 
+                        alt="Project 2" 
+                        class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project">Astronaut Signal </h2>
+                    <h2 class="small_text_p2">Custom Short Video</h2>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" onclick="location.href='https://x.com/AoiSani/status/1789669357905461299/video/1'">
+                        View on Twitter
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/LowPolyMotorcycle1320.png" 
+                        alt="Project 3" 
+                        class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project">Low Poly Motorcycle 1 </h2>
+                    <h2 class="small_text_p2">Motocompacto Reference</h2>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" onclick="location.href='https://x.com/AoiSani/status/1533751149060161536/photo/1'">
+                          View on Twitter
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                      <img src="./assets/LowPolyMotorcycle2320.png" 
+                      alt="Project 3" 
+                      class="project-img"
+                      />
+                  </div>
+                  <h2 class="experience-sub-title project">Low Poly Motorcycle 2 </h2>
+                  <h2 class="small_text_p2">Monkey Reference</h2>
+                  <div class="btn-container">
+                      <button 
+                      class="btn btn-color-2 project-btn" onclick="location.href='https://x.com/AoiSani/status/1826697428667695154/photo/1'">
+                      View on Twitter
+                      </button>
+                  </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/LowPolyToy1320.png" 
+                    alt="Project 3" 
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project">Lucky Cat Toy Model</h2>
+                <h2 class="small_text_p2">Hong Kong Local Culture Version</h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn" onclick="location.href='https://x.com/AoiSani/status/1530497554081026048/photo/1'">
+                    View on Twitter
+                    </button>
+                </div>
+            </div>
+
+              </div>
+                </div>
+            </div>
+            <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+          />
+        </section>
+        <section id="contact">
+            <p class="section_text_p1">Get In Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" 
+                    alt="Email icon"
+                    class="icon contact-icon"
+                    />
+                    <p>(For Commission) <a href="mailto:sunnylui823perstudio@gmail.com">sunnylui823perstudio@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                  <img src="./assets/email.png" 
+                  alt="Email icon"
+                  class="icon contact-icon"
+                  />
+                  <p>(For Social Contact) <a href="mailto:aoisani404@gmail.com">aoisani404@gmail.com</a></p>
+              </div>
+                <div class="contact-info-container">
+                    <img src="./assets/twitter.png" 
+                    alt="Twitter icon"
+                    class="icon contact-icon"
+                    />
+                    <p><a href="https://x.com/AoiSani">X(Twitter)</a></p>
+                </div>
+                <div class="contact-info-container">
+                  <img src="./assets/discord.png" 
+                  alt="Discord icon"
+                  class="icon contact-icon"
+                  />
+                  <p><a href="https://discord.gg/RESXGR39">Join My Discord Server</a></p>
+              </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Skill</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024 AoiSani. All Rights Reserved</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    </html>
