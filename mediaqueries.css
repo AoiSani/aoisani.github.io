@@ -57,8 +57,16 @@
         height: 40vh;
     }
     #layer1{
-        margin-bottom: 0;
+        padding-top: 150px; /* Adjust padding for mobile */
+        padding-bottom: 150px; /* Adjust padding for mobile */
     }
+    .layer1_section_text_p1 {
+        font-size: 1.5rem; /* Decrease font size for mobile */
+    }
+    .layer1_section_text_p2 li {
+        font-size: 1.2rem; /* Decrease font size for mobile */
+    }
+
   
     #profile{
         height:83vh;
