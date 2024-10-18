@@ -423,7 +423,7 @@ section{
 }
 
 .article-container{
-    display: flex;
+    display: grid;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
