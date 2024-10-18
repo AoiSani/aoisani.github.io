@@ -354,6 +354,13 @@ section{
     
 }
 
+.aboutPJ-container{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+}
+
 .about-details-container{
     justify-content: center;
     flex-direction: column;
@@ -363,6 +370,11 @@ section{
 .about-container, 
 .about-details-container {
     display: flex;
+}
+
+.aboutPJ-container, 
+.about-details-container {
+    display: block;
 }
 
 .about-pic{
@@ -423,7 +435,7 @@ section{
 }
 
 .article-container{
-    display: grid;
+    display: flex;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
