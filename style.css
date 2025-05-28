@@ -298,8 +298,10 @@ section{
 
 .btn-container{
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 1rem; /* Space between buttons */
+    align-self: center; /* Align buttons to the bottom of their container */
+    margin-top: 0; /* Ensure it stays at the bottom */
 }
 
 .btn{
@@ -388,6 +390,9 @@ section{
 }
 
 .details-container {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
     padding: 1.5rem;
     flex: 1;
     background: white;
@@ -395,7 +400,7 @@ section{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-    
+
   }
   
   .text-container p{
@@ -436,11 +441,12 @@ section{
 
 .article-container{
     display: flex;
-    text-align: center;
+    text-align: column;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
     justify-content: center;
+    align-items: center;
 }
 
 article{
@@ -482,6 +488,7 @@ article.icon{
     margin: 1rem;
     color: black;
 }
+
 
 .project-btn{
     color: black;
