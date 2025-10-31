@@ -573,12 +573,10 @@ al-main {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Fixed 3 columns */
     gap: 1rem; /* Space between grid items */
-    justify-items: center;
 }
 
 .grid-container a {
     display: block; /* Make the entire area clickable */
-    width: 100%; /* Make links full width */
 }
 
 .grid-container img {
@@ -592,6 +590,7 @@ al-main {
 .grid-container img:hover {
     transform: scale(1.05); /* Scale effect on hover */
 }
+
 
 
 
