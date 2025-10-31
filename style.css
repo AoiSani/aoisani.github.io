@@ -559,7 +559,7 @@ al-main {
     flex-direction: column;      /* Stack items vertically */
     justify-content: center;     /* Center vertically */
     align-items: center;         /* Center horizontally */
-    height: 100vh;              /* Full height of the viewport */
+    height: 30vh;              /* Full height of the viewport */
     text-align: center;          /* Center the text */
 }
 
@@ -574,3 +574,4 @@ al-main {
     align-items: center; /* Center items vertically */
     text-align: center; /* Center the text */
 }
+
