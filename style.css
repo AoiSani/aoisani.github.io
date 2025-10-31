@@ -562,3 +562,15 @@ al-main {
     height: 100vh;              /* Full height of the viewport */
     text-align: center;          /* Center the text */
 }
+
+#al-layer1 {
+    margin: 0;
+    width: 100%; /* Ensure it takes full width */
+    background-color: white; /* Set background to white */
+    padding: 100px 0; /* Adjust top and bottom padding as needed */
+    
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    text-align: center; /* Center the text */
+}
