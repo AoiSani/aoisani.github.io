@@ -586,7 +586,7 @@ al-main {
     max-width: 100%; /* Ensure images do not exceed the width of their container */
     max-height: 800px; /* Set a max height for images */
     width: auto; /* Maintain aspect ratio */
-    height: auto; /* Maintain aspect ratio */
+    height: 800px; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: add rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
     transition: transform 0.3s; /* Smooth hover effect */
@@ -595,6 +595,7 @@ al-main {
 .grid-container img:hover {
     transform: scale(1.05); /* Scale effect on hover */
 }
+
 
 
 
