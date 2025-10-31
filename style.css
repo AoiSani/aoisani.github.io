@@ -547,4 +547,9 @@ article.icon{
   footer p {
     text-align: center;
   }
-  
+
+ .centered-button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 2rem 0;          /* Add some vertical spacing */
+}
