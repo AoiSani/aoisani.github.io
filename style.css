@@ -564,16 +564,34 @@ al-main {
     text-align: center;          /* Center the text */
 }
 
+
+
 #al-layer1 {
-    margin: 0;
-    width: 100%; /* Ensure it takes full width */
-    background-color: white; /* Set background to white */
-    padding: 100px 0; /* Adjust top and bottom padding as needed */
-    
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    text-align: center; /* Center the text */
+    padding: 2rem; /* Add some padding around the section */
+    background-color: white; /* Ensure background is white */
+    display: flex;
+    align-items: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 3 columns minimum */
+    gap: 1rem; /* Space between grid items */
+}
+
+.grid-container a {
+    display: block; /* Make the entire area clickable */
+}
+
+.grid-container img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.grid-container img:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
 
