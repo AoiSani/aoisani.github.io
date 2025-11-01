@@ -560,13 +560,17 @@ al-main {
     flex-direction: column;      /* Stack items vertically */
     justify-content: center;     /* Center vertically */
     align-items: center;         /* Center horizontally */
-    height: 30vh;               /* Full height of the viewport */
+    min-height: 30vh;           /* Set minimum height of the viewport */
     text-align: center;          /* Center the text */
-    background-color: #DBDBDB;   /* Set background color */
-    font-size: 2rem;            /* Set larger font size */
+    background-color: #989898;   /* Set background color */
+    font-size: clamp(1rem, 5vw, 2rem); /* Responsive font size with max of 2rem */
+    font-weight: bold;           /* Make text bold */
     font-family: 'Bitcount Grid Single'; 
+    padding: 1rem;              /* Add padding to prevent text from touching edges */
+    overflow: hidden;           /* Prevent overflow of text */
+    width: 100%;                /* Ensure it takes full width */
+    box-sizing: border-box;     /* Include padding in total width/height */
 }
-
 
 #al-layer1 {
     padding: 2rem; /* Add some padding around the section */
