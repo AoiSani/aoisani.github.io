@@ -1,5 +1,5 @@
 /* GENERAL */
-
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet');
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
  
 * {
@@ -560,9 +560,13 @@ al-main {
     flex-direction: column;      /* Stack items vertically */
     justify-content: center;     /* Center vertically */
     align-items: center;         /* Center horizontally */
-    height: 30vh;              /* Full height of the viewport */
+    height: 30vh;               /* Full height of the viewport */
     text-align: center;          /* Center the text */
+    background-color: #DBDBDB;   /* Set background color */
+    font-size: 2rem;            /* Set larger font size */
+    font-family: 'Bitcount Grid Single'; 
 }
+
 
 #al-layer1 {
     padding: 2rem; /* Add some padding around the section */
@@ -571,8 +575,15 @@ al-main {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Fixed 3 columns */
+    grid-template-columns: repeat(3, 1fr); /* Default to 3 columns */
     gap: 1rem; /* Space between grid items */
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 800px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Flexible columns */
+    }
 }
 
 .grid-container a {
@@ -590,6 +601,7 @@ al-main {
 .grid-container img:hover {
     transform: scale(1.05); /* Scale effect on hover */
 }
+
 
 
 
